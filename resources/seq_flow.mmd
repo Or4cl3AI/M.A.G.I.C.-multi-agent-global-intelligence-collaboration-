@@ -1,0 +1,14 @@
+sequenceDiagram
+    participant GA as GeneticAlgorithm
+    participant NN as NeuralNetwork
+    participant DL as DynamicLayer
+    participant LP as LearningParadigm
+    participant UI as UserInterface
+    participant MM as MemoryModule
+    GA->>NN: evolve()
+    NN->>DL: generate()
+    NN->>LP: switch_paradigm()
+    UI->>GA: input_task()
+    UI->>NN: monitor_progress()
+    UI->>MM: provide_feedback()
+    MM->>NN: store_information()
