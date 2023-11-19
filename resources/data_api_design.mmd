@@ -1,0 +1,40 @@
+classDiagram
+    class GeneticAlgorithm{
+        +list population
+        +dict fitness_values
+        +__init__(population: list)
+        +evolve()
+        +calculate_fitness()
+    }
+    class NeuralNetwork{
+        +list layers
+        +__init__(layers: list)
+        +train()
+        +predict()
+    }
+    class DynamicLayer{
+        +int layer_size
+        +__init__(layer_size: int)
+        +generate()
+    }
+    class LearningParadigm{
+        +str paradigm
+        +__init__(paradigm: str)
+        +switch_paradigm()
+    }
+    class UserInterface{
+        +str task
+        +__init__(task: str)
+        +input_task()
+        +monitor_progress()
+        +provide_feedback()
+    }
+    class MemoryModule{
+        +list learned_information
+        +__init__(learned_information: list)
+        +store_information()
+    }
+    GeneticAlgorithm "1" -- "1" NeuralNetwork: has
+    NeuralNetwork "1" -- "1" DynamicLayer: has
+    NeuralNetwork "1" -- "1" LearningParadigm: has
+    UserInterface "1" -- "1" MemoryModule: has
