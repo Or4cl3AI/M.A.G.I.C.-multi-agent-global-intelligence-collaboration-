@@ -1,7 +1,8 @@
 repo_name: Or4cl3AI/M.A.G.I.C.-multi-agent-global-intelligence-collaboration-
 report_id: 658dfa696aef3b79cbe3db33bfc8ac5f
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-24T02:00:58+00:00'
+timestamp: '2024-01-05T08:34:36+00:00'
 requested_by: Or4cl3AI
 provider: github
 branch: main
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/Or4cl3AI/M.A.G.I.C.-multi-agent-global-intelligence-collaboration-
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -25,6 +27,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Or4cl3AI/M.A.G.I.C.-multi-agent-global-intelligence-collaboration-
   detection_source: Repo Metadata
 - name: PyPI
   description: A repository of software for the Python programming language
@@ -34,6 +37,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/Or4cl3AI/M.A.G.I.C.-multi-agent-global-intelligence-collaboration-/blob/main/m.a.g.i.c./requirements.txt
   detection_source: m.a.g.i.c./requirements.txt
   last_updated_by: Dustin Groves
   last_updated_on: 2023-11-19 08:27:15.000000000 Z
@@ -47,7 +51,7 @@ tools:
   category: Application Utilities
   sub_category: Machine Learning Tools
   image_url: https://img.stackshare.io/service/4717/FtFnqC38_400x400.png
-  detection_source_url: m.a.g.i.c./requirements.txt
+  detection_source_url: https://github.com/Or4cl3AI/M.A.G.I.C.-multi-agent-global-intelligence-collaboration-/blob/main/m.a.g.i.c./requirements.txt
   detection_source: m.a.g.i.c./requirements.txt
   last_updated_by: Dustin Groves
   last_updated_on: 2023-11-19 08:27:15.000000000 Z
